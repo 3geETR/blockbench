@@ -1,8 +1,8 @@
 name: Deploy Web App with build step
 
 on:
+  workflow_dispatch:
   push:
-    workflow_dispatch:
     branches: [ "gh-pages" ]
 
 permissions:
